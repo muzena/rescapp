@@ -1,8 +1,8 @@
 Source: rescapp
-Section: main
+Section: admin
 Priority: optional
 Maintainer: Adrian Gibanel Lopez <adrian15sgd@gmail.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.5
 Homepage: https://github.com/rescatux/rescapp
 Vcs-Git: https://github.com/rescatux/rescapp.git
@@ -10,72 +10,67 @@ Vcs-Browser: https://github.com/rescatux/rescapp.git
 
 Package: rescapp
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-# Python
-         ,python-pyqt5
-         ,python-pyqt5.qtwebkit
-# Raid
-         ,dmraid
-# Lvm
-         ,lvm2
-         ,gparted
-         ,gpart
-         ,dosfstools
-# Testdisk
-         ,testdisk
-# Gdisk
-         ,gdisk
-# Efibootmgr
-         ,efibootmgr
-# Python-parted
-         ,python-parted
-# gddrescue
-         ,gddrescue
-# myrescue
-         ,myrescue
-# chntpw
-         ,chntpw
-# misc
-         ,zenity
-         ,iceweasel
-         ,hexchat
-         ,syslinux
-         ,pastebinit
-         ,lilo
-         ,gawk
-         ,extundelete
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ python-pyqt5,
+ python-pyqt5.qtwebkit,
+ dmraid,
+ lvm2,
+ gparted,
+ gpart,
+ dosfstools,
+ testdisk,
+ gdisk,
+ efibootmgr,
+ python-parted,
+ gddrescue,
+ myrescue,
+ chntpw,
+ zenity,
+ iceweasel,
+ hexchat,
+ syslinux,
+ pastebinit,
+ lilo,
+ gawk,
+ extundelete,
 Description: Rescapp is a nice wizard that helps you in your rescue tasks.
  Rescapp is the Rescatux main program. It is a nice wizard that helps you in your rescue tasks.
+ .
  Boot options:
-  Update UEFI order
-  Create a new UEFI Boot entry
-  UEFI Partition Status
-  Fake Microsoft Windows UEFI
-  Hide Microsoft Windows UEFI
-  Reinstall Microsoft Windows EFI
-  Check UEFI Boot
+  * Update UEFI order
+  * Create a new UEFI Boot entry
+  * UEFI Partition Status
+  * Fake Microsoft Windows UEFI
+  * Hide Microsoft Windows UEFI
+  * Reinstall Microsoft Windows EFI
+  * Check UEFI Boot
+ .
  GRUB options:
-  Easy GNU/Linux Boot Fix
-  Restore GRUB and GRUB2
-  Update any GRUB2 menues
-  Update Debian/Ubuntu grub menues
+  * Easy GNU/Linux Boot Fix
+  * Restore GRUB and GRUB2
+  * Update any GRUB2 menues
+  * Update Debian/Ubuntu grub menues
+ .
  Windows options:
-  Restore Windows MBR (BETA)
-  Clear Windows passwords
-  Promote a Windows user to Administrator role
-  Reinstall Microsoft Windows EFI
-  Unlock Windows user
+  * Restore Windows MBR (BETA)
+  * Clear Windows passwords
+  * Promote a Windows user to Administrator role
+  * Reinstall Microsoft Windows EFI
+  * Unlock Windows user
+ .
  Password options:
-  Change Gnu/Linux Password
-  Regenerate sudoers file
-  Clear Windows passwords
+  * Change Gnu/Linux Password
+  * Regenerate sudoers file
+  * Clear Windows passwords
+ .
  Filesystem options:
-  File System Check (Forced Fix)
+  * File System Check (Forced Fix)
+ .
  Support options:
-  Help
-  Web
-  Chat
-  Show log
-  Share log
-  Share log on forum
-  Boot Info Script
+  * Help
+  * Web
+  * Chat
+  * Show log
+  * Share log
+  * Share log on forum
+  * Boot Info Script
