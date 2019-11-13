@@ -40,36 +40,42 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
          mokutil
 Description: Rescapp is a nice wizard that helps you in your rescue tasks.
  Rescapp is the Rescatux main program. It is a nice wizard that helps you in your rescue tasks.
+ .
  Boot options:
-  Update UEFI order
-  Create a new UEFI Boot entry
-  UEFI Partition Status
-  Fake Microsoft Windows UEFI
-  Hide Microsoft Windows UEFI
-  Reinstall Microsoft Windows EFI
-  Check UEFI Boot
+  * Update UEFI order
+  * Create a new UEFI Boot entry
+  * UEFI Partition Status
+  * Fake Microsoft Windows UEFI
+  * Hide Microsoft Windows UEFI
+  * Reinstall Microsoft Windows EFI
+  * Check UEFI Boot
+ .
  GRUB options:
-  Easy GNU/Linux Boot Fix
-  Restore GRUB and GRUB2
-  Update any GRUB2 menues
-  Update Debian/Ubuntu grub menues
+  * Easy GNU/Linux Boot Fix
+  * Restore GRUB and GRUB2
+  * Update any GRUB2 menues
+  * Update Debian/Ubuntu grub menues
+ .
  Windows options:
-  Restore Windows MBR (BETA)
-  Clear Windows passwords
-  Promote a Windows user to Administrator role
-  Reinstall Microsoft Windows EFI
-  Unlock Windows user
+  * Restore Windows MBR (BETA)
+  * Clear Windows passwords
+  * Promote a Windows user to Administrator role
+  * Reinstall Microsoft Windows EFI
+  * Unlock Windows user
+ .
  Password options:
-  Change Gnu/Linux Password
-  Regenerate sudoers file
-  Clear Windows passwords
+  * Change Gnu/Linux Password
+  * Regenerate sudoers file
+  * Clear Windows passwords
+ .
  Filesystem options:
-  File System Check (Forced Fix)
+  * File System Check (Forced Fix)
+ .
  Support options:
-  Help
-  Web
-  Chat
-  Show log
-  Share log
-  Share log on forum
-  Boot Info Script
+  * Help
+  * Web
+  * Chat
+  * Show log
+  * Share log
+  * Share log on forum
+  * Boot Info Script
