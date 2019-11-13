@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+# Add root start
+# sed -i '15 s/^/# /' ./$(APPNAME)/$(APPNAME).pro
+# sed -i '11 s/rescapp/sudo rescapp/' rescapp.desktop 
+sed -i 's/rescapp/sudo rescapp/' /usr/share/applications/rescapp.desktop
+
+exit 0
