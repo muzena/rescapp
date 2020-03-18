@@ -8,6 +8,6 @@ Name[en_US]=Rescapp
 Comment=Rescapp - Rescue Tool
 Comment[en_US]=Rescapp - Rescue Tool
 Comment[hr_HR]=Rescapp - Alat obnove sustava
-Exec=sudo rescapp
+Exec=rescapp
 #X-GNOME-Autostart-enabled=true
 Icon=openbox.png
